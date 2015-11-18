@@ -1,0 +1,19 @@
+#test{
+	color:red;
+}
+#page-header {
+	color: #00ff00;
+	font-family: "comic sans ms", "webdings", Serif;
+	font-size: 18px;
+	font-weight: lighter;
+} /*this changes the page header color to green, the font to comic sans, the font size to 18px and a lighter shade*/
+.todo-item h1 {
+	text-decoration: underline;
+} /*this will underline all H1's in the todo-item*/
+.todo-item>a {
+	color: red;
+} /*this will make all the subheadings/todo items RED*/
+li.todo-item{
+	text-indent: 150px;
+	text-align: right;
+}/*this will ensure the text is indented by 150px and right-aligned /

@@ -1,0 +1,17 @@
+h1{
+		font-weight: normal;
+	}
+/*Looks for everything within any p tag that has a class of important*/
+p .
+h1, .abstract {
+		/*transform: rotate(180deg);*/
+		color:green;
+	}
+article h1{
+	color:red;
+}
+
+#article-subhead {
+	background-color: salmon;
+	}
+	</style>
