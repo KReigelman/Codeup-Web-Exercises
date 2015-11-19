@@ -1,24 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
   <meta charset:"utf-8" />
   <title>Kate Reigelman</title>
   <style>
-  div.about kate {
-    background-color:black;
-    color:white;
-    margin:20px;
-    padding:20px;
-} 
+  img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px;
+    border-radius: 100px;
+    background-size: 200px;
+  }
+  body {
+    background-image:url("/img/sunandcircles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    margin:1px;
+    padding:1px;
+    font-family: "didot", serif;
+  }
+    #header{font-weight: normal;font-size: 60px; text-align: center;}
+    #para1 {font-size: 48px; text-align: center;}
+    .para2 {font-size: 28px; text-align: center;}
+    .para3 {font-size: 20px; text-align: center;}
+    #email {font-size: 24px; vertical-align: middle;}
   </style>
 </head>
 <body>
-<div class="About Kate">
-<h2>About Me</h2>
-<img src="/img/katereigelman.jpg">
-  <p>Hi! I'm Kate, a San Antonio-based marketer. Say hello!</p>
-  <input type="email" placeholder="Your email">
-  <input type="submit">
-</div>
-  
+<h1 id="header">* Hi! I'm Kate *</h1>
+<img class="displayed" src="/img/katereigelman.jpg" alt="kateprofessionalpic"> <br/>
+  <p id="para1">Front-end developer: <br><em>~At Your Service.</em> <br /> </p>
+  <p class="para2">Have a need or issue that needs to be solved? <br> Come say Hello, send me a message!<br /> </p> <br><br><br>
+  <p class="para3">Sign up for all the goodies! </p>
+  <input id="email" type="email" placeholder="Your email"
 </body>
+</html>
