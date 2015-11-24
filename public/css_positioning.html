@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US" 
+<head>
+	<meta charset="utf-8">
+	<title>Positioning Exercise</title>
+</head>
+	<style> html{
+    box-sizing: border-box; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+		div{ 
+			color: white; 
+			font-family: serif; 
+			font-size: 15px;
+			font-weight: bold;	
+		}
+		a.header {
+			text-decoration: underline;
+			font-size: 36px;
+			font-weight: bold;
+		}
+		div.all_boxes {
+			width: 600px;
+		}
+		img {
+			position: absolute;
+			top: -40px;
+			right: -40px;
+		}
+		#RedBox,#OrangeBox,#YellowBox,#GreenBox,#BlueBox,#VioletBox {
+			width: 72px;
+			height: 72px;
+			padding: 10px;
+			border: 1px solid black;
+			margin: 50px;
+			float: left;
+			position: relative;
+		}
+		#RedBox {
+			background-color: red;
+		}
+		#OrangeBox {
+			background-color: orange;
+			
+		}	
+		#YellowBox {
+			background-color: yellow;
+			
+		}	
+		#GreenBox {
+			background-color: green;
+			
+		}	
+		#BlueBox {
+			background-color: blue;	
+		}		
+		#VioletBox {
+			background-color: #AD00C3;
+			
+		}
+
+	</style>
+<body>
+	<h1> 
+	<a class="header" href="https://en.wikipedia.org/wiki/Visible_spectrum">Visible Spectrum Wavelength</a>
+	</h1>
+	<div class="all_boxes">
+
+		<div id="RedBox">
+			 630-750 nm
+			 <img src="/img/codeup-ribbon.png" alt="codeup ribbon">
+		</div>
+
+		<div id="OrangeBox">
+			 590-630 nm
+			 <img src="/img/codeup-ribbon.png" alt="codeup ribbon"> 
+		</div>
+
+		<div id="YellowBox">
+			 560-590 nm
+			 <img src="/img/codeup-ribbon.png" alt="codeup ribbon">
+		</div>
+
+		<div id="GreenBox">
+			 490-560nm
+			 <img src="/img/codeup-ribbon.png" alt="codeup ribbon">
+		</div>
+		<div id="BlueBox">
+			 450-490 nm
+			 <img src="/img/codeup-ribbon.png" alt="codeup ribbon">
+		</div>
+		<div id="VioletBox">
+			 400-450 nm
+			 <img src="/img/codeup-ribbon.png" alt="codeup ribbon">
+		</div>
+	</div>
+	</div>
+</body>
+</html>

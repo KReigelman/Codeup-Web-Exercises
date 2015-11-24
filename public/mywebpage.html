@@ -4,36 +4,43 @@
   <meta charset:"utf-8" />
   <title>Kate Reigelman</title>
   <style>
-  img.displayed {
-    display: block;
-    border: 20px;
-    border-radius: 100px;
-    background-size: 200px;
-  }
-  body {
+  div.container {
     background-image:url("/img/sunandcircles.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color:black;
-    width: 20px;
-    margin:1px;
-    padding:1px;
+    width: 20px auto;
     font-family: "didot", serif;
+    position: relative;
+    text-align: center;
   }
-    #header{font-weight: normal;font-size: 60px; text-align: center;}
-    #para1 {font-size: 48px; text-align: center;}
-    .para2 {font-size: 28px; text-align: center;}
-    .para3 {font-size: 20px; text-align: center;}
-    #email {font-size: 24px; vertical-align: middle; font-family: "didot";
+    img.displayed {
+    display: block;
+    border: 20px;
+    border-radius: 100px;
+    background-size: 200px;
+    position: absolute;
+    margin: 1px auto;
+  }
+    #header{font-weight: normal;font-size: 60px;}
+    #para1 {font-size: 48px; }
+    .para2 {font-size: 28px; }
+    .para3 {font-size: 20px; }
+    #email {font-size: 24px; font-family: "didot";
   }
   </style>
 </head>
 <body>
-<h1 id="header">* Hi! I'm Kate *</h1>
-<img class="displayed" src="/img/katereigelman.jpg" alt="kateprofessionalpic"> <br/>
+  <div class="container">
+  <h1 id="header">* Hi! I'm Kate *</h1>
+  <img class="displayed" src="/img/katereigelman.jpg" alt="kateprofessionalpic"> 
+  <br/>
   <p id="para1">Front-end developer: <br><em>~At Your Service.</em> <br /> </p>
-  <p class="para2">Have a need or issue that needs to be solved? <br> Come say Hello, send me a message!<br /> </p> <br><br><br>
+
+  <p class="para2">Have a need or issue that needs to be solved? 
+  <br> Come say Hello, send me a message!<br /> </p> 
+  <br><br><br>
   <p class="para3">Sign up for all the goodies! </p>
-  <input id="email" type="email" placeholder="Your email"
+  <input id="email" type="email" placeholder="Your email">
 </body>
 </html>
