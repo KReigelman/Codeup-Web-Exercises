@@ -8,39 +8,41 @@
     background-image:url("/img/sunandcircles.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color:black;
-    width: 20px auto;
+    width: auto;
     font-family: "didot", serif;
-    position: relative;
     text-align: center;
   }
-    img.displayed {
+    img {
     display: block;
     border: 20px;
-    border-radius: 100px;
-    background-size: 200px;
-    position: absolute;
+    border-radius: auto;
+    background-size: auto;
+    position: center;
     margin: 1px auto;
   }
-    #header{font-weight: normal;font-size: 60px;}
+    h1 {font-weight: normal;font-size: 52px;}
     #para1 {font-size: 48px; }
-    .para2 {font-size: 28px; }
+    .para2 {font-size: 28px; font-weight: bolder; }
+    .need {text-align: left;}
+    .issue {float: left;}
+    .question {text-indent: 50px;}
     .para3 {font-size: 20px; }
-    #email {font-size: 24px; font-family: "didot";
+    #email {font-size: 24px; font-family: "didot"; text-align: center;
   }
   </style>
 </head>
 <body>
   <div class="container">
-  <h1 id="header">* Hi! I'm Kate *</h1>
-  <img class="displayed" src="/img/katereigelman.jpg" alt="kateprofessionalpic"> 
-  <br/>
-  <p id="para1">Front-end developer: <br><em>~At Your Service.</em> <br /> </p>
-
-  <p class="para2">Have a need or issue that needs to be solved? 
-  <br> Come say Hello, send me a message!<br /> </p> 
-  <br><br><br>
-  <p class="para3">Sign up for all the goodies! </p>
-  <input id="email" type="email" placeholder="Your email">
+  <h1>* Hi! I'm Kate *</h1>
+  <img src="/img/katereigelman.jpg" alt="kateprofessionalpic"> 
+  <p id="para1">Front-end developer: <br><em>~At Your Service.</em>
+  </p>
+  <p class="para2" class="need">Have a need, </p>
+  <p class="para2" class="issue"><em>issue</em> or </p>
+  <p class="para2" class="question">question that needs to be solved? </p>
+  <p class="para3">Come say Hello, send me a message! &amp Sign up for all the goodies! </p>
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="Your email">
+    <button class="email_submit_button">Send!</button>
 </body>
 </html>
