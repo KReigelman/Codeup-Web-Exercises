@@ -1,0 +1,297 @@
+.fa-flag {
+	float: left;
+	color: red;
+	font-size: 64px;
+}
+
+#flag h1 {
+	font-size: 45px;
+	/*color: blue;*/
+	font-family: sans-serif;
+	margin-left: 200px;
+	text-decoration: underline;
+}
+
+/*Styling and positioning of the 
+borders of the American Flag*/
+#usa-border {
+	border: 2px solid black;
+	width: 500px;
+	height: 305px;
+	position: relative;
+}
+#stars-box {
+	background-color: #021f40;
+	border: 1px solid black;
+	position: relative;
+	width: 170px;
+	height: 162px;
+	float: left;
+	color: white;
+}
+.red-stripe {
+	background-color: #c3053e;
+	width: 500px;
+	height: 22.2px;
+}
+.white-stripe {
+	background-color: #FFFFFF;
+	width: 500px;
+	height: 25px;
+}
+/*Styling the star icon inside 
+the star-box the from fontawesome.com*/
+.fa-star {
+	font-size: 25px;
+	/*position: relative;*/
+	/*padding: 2px;*/
+	letter-spacing: 10px;
+}
+.s-indent {
+	text-indent: 15px;
+}
+
+
+/*
+*Japan flag border and position
+*Flag circle styling and positioning
+*/
+#japan-border {
+	margin-top: 10px;
+	border: 2px solid black;
+	width: 500px;
+	height: 300px;
+	position: relative;
+}
+.red-circle {
+	background-color: #f42f43;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	border-radius: 50%;
+}
+
+/*Bouvet Island border,style, and position*/
+#bouvet-border {
+	margin-top: 10px;
+	border: 2px solid black;
+	width: 400px;
+	height: 300px;
+	position: relative;
+	left: 100px;
+}
+.r-box {
+	background-color: #F42F43;
+	width: 110px;
+	height: 115px;
+	position: absolute;
+	float: left;
+}
+.r-bottom {
+	top: 185px;
+}
+.vertical {
+	background-color: #3F4B72;
+	width: 40px;
+	height: 300px;
+	position: absolute;
+	left: 125px;
+}
+.horizontal {
+	background-color: #3F4B72;
+	height: 40px;
+	width: 400px;
+	position: absolute;
+	top: 130px;
+}
+.l-box {
+	background-color: #F42F43;
+	width: 220px;
+	height: 115px;
+	position: absolute;
+	left: 180px;
+}
+.l-bottom {
+	top: 185px;
+}
+
+
+
+
+/*United Kingdom bordering, styling, positioning*/
+#uk-border {
+	border: 1px solid black;
+	width: 350px;
+	height: 200px;
+	position: relative;
+	left: 125px;
+}
+.uk-horizontal,
+.uk-vertical {
+	background-color: #D40C2F;
+	position: absolute;
+}
+.uk-horizontal {
+	width: 350px;
+	height: 25px;
+	top: 87px;
+}
+.uk-vertical {
+	width: 25px;
+	height: 200px;
+	left: 163px;
+}
+/*sizing each corner box*/
+#uk-r-top {
+	/*border: 1px solid black;*/
+	width: 150px;
+	height: 75px;
+	position: relative;
+	top: -1px;
+	left: -1px;
+	background-color: #D40C2F;
+	/*overflow: hidden;*/
+
+}
+
+#uk-r-bottom {
+	border: 1px solid black;
+	width: 150px;
+	height: 75px;
+	position: relative;
+	top: 47px;
+	left: -1px;
+}
+
+#uk-l-top {
+	border: 1px solid black;
+	width: 150px;
+	height: 75px;
+	position: relative;
+	bottom: 155px;
+	left: 199px;
+}
+
+#uk-l-bottom {
+	border: 1px solid black;
+	width: 150px;
+	height: 75px;
+	position: relative;
+	bottom: 107px;
+	left: 199px;
+}
+
+/*styling inside the corner boxes*/
+.rt-triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 65px 0 0 115px;
+	/*border-width: 50px 0 0 90px;*/
+	border-color: transparent transparent transparent white;
+	/*border-color: transparent transparent transparent #002778;*/
+	position: relative;
+	top: 10px;
+}
+
+.rlt-triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 130px 75px 0;
+	/*border-width: 0 110px 60px 0;*/
+	border-color: transparent white transparent transparent;
+	position: relative;
+	left: 20px;
+	bottom: 65px;
+}
+
+.rbt-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 90px 0 0;
+	border-color: #002778 transparent transparent transparent;
+	position: absolute;
+}
+
+.rbb-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 60px 110px;
+	border-color: transparent transparent #002778 transparent;
+	position: relative;
+	top: 18px;
+	left: 40px;
+}
+
+.ltb-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 50px 90px;
+	border-color: transparent transparent #002778 transparent;
+	position: relative;
+	top: 25px;
+	left: 61px;	
+}
+.ltt-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 60px 110px 0 0;
+	border-color: #002778 transparent transparent transparent;
+	position: relative;
+	bottom: 49px;
+	left: -4px;
+}
+.lbb-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 60px 0 0 110px;
+	border-color: transparent transparent transparent #002778;
+	position: relative;
+	top: 16px;
+	left: -4px;
+}
+.lbt-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 90px 50px 0;
+	border-color: transparent #002778 transparent transparent;
+	position: relative;
+	left: 61px;
+	bottom: 60px;
+}
+
+/*styling the red stripe in the corners*/
+.red-border-b {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 50px 0 0 90px;
+	border-color: transparent transparent transparent #002778;
+	position: relative;
+	bottom: 50px;
+	right: 115px;
+}
+
+.red-border-t {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 110px 60px 0;
+	/*border-width: 0 130px 75px 0;*/
+	border-color: transparent #002778 transparent transparent;
+	position: relative;
+	bottom: 140px;
+	left: 40px;
+
+}
+
+
