@@ -1,15 +1,17 @@
 body {
-	background-color: #e1e1e1;
+	background-color: #ADD8E6;
+
 }
 
 nav {
-	border: 1px solid black;
+	border: 1px white;
+	color: white;
 }
 
 /*Includes star wars header and nav of the force, about force, and contact*/
 
 #top-bar h1 {
-	font-family: 'monoton';
+	font-family: 'Eczar';
 	margin-left: 50px;
 	font-size: 60px;
 	text-decoration: underline;
@@ -17,16 +19,19 @@ nav {
 
 #top-bar a {
 	text-decoration: none;
+	font-family: 'Eczar';
+	font-size: 25px;
 }
 
 #top-bar>ul, 
 #top-bar>ul li {
-	margin-top: -20px;
+	margin-top: -30px;
 	margin-bottom: 10px;
 	padding: 0;
 	text-align: center;
-	font: sans-serif;
+	font: 'Eczar';
 	font: bolder;
+	color: "grey";
 }
 
 #top-bar>ul li {
@@ -60,7 +65,7 @@ aside {
 
 #main-image img {
 	float: left;
-	border-radius: 5px;
+	border-radius: 500px;
 }
 
 .main-content {
@@ -85,6 +90,7 @@ footer {
 	clear: both;
 	text-align: center;
 }
+
 
 #bottom-bar>ul,
 #bottom-bar>ul li {
