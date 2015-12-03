@@ -1,5 +1,6 @@
 body {
 	background-color: #ADD8E6;
+	list-style-type: none;
 
 }
 
@@ -12,42 +13,46 @@ nav {
 
 #top-bar h1 {
 	font-family: 'Eczar';
-	margin-left: 50px;
-	font-size: 60px;
+	margin-left: 20px;
+	font-size: 80px;
 	text-decoration: underline;
+	text-indent: 1em;
+	padding: 0px;
+	margin-bottom: -10px;
 }
 
 #top-bar a {
 	text-decoration: none;
 	font-family: 'Eczar';
 	font-size: 25px;
+	font: center;
+	width: 1000px;
 }
 
-#top-bar>ul, 
-#top-bar>ul li {
-	margin-top: -30px;
-	margin-bottom: 10px;
-	padding: 0;
-	text-align: center;
+.about li {
 	font: 'Eczar';
-	font: bolder;
-	color: "grey";
-}
-
-#top-bar>ul li {
-	display: inline-block;
-	width: 200px;
+	display: inline;
+    height: 75px;
+	margin-top: 20px;
+    list-style-type: none;
+    border-style: outset;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 1000px;
 }
 
 /*Includes google, twitter, facebook*/
 
 aside {
-	background-color: #ffffff;
+	background-color: black;
 	height: 200px;
 	float: left;
-	padding: 20px;
+	padding: 10px;
 	margin-right: 20px;
-	border-radius: 3px;
+	border-radius: 10px;
+	clear: both;
+	font: 24px;
 }
 
 #left-side a {

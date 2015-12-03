@@ -8,41 +8,71 @@
     background-image:url("/img/sunandcircles.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
     font-family: "didot", serif;
     text-align: center;
+    border-style: dotted;
+    border-radius: 10px;
+    margin: 0px;
   }
     img {
     display: block;
-    border: 20px;
-    border-radius: auto;
+    border: 5px;
+    border-radius: 30px;
     background-size: auto;
     position: center;
     margin: 1px auto;
+    border-style: dotted;
+    height: 20%;
+    width: 20%;
+    
   }
-    h1 {font-weight: normal;font-size: 52px;}
-    #para1 {font-size: 48px; }
-    .para2 {font-size: 28px; font-weight: bolder; }
-    .need {text-align: left;}
-    .issue {float: left;}
-    .question {text-indent: 50px;}
-    .para3 {font-size: 20px; }
-    #email {font-size: 24px; font-family: "didot"; text-align: center;
+    h1 {
+      font-weight: normal;
+      font-size: 52px;
+      padding: 10px;
+      margin: 15px;
+    }
+    #para1 {
+      font-size: 40px;
+      padding: -10px;
+
+    }
+    .service {font-size: 30px;}
+    .content {
+      font-size: 28px; 
+      font-weight: bolder; 
+    }
+    .need {
+      text-align: center;
+    }
+    .solved{
+      text-indent: 50px;
+    }
+    .signup {
+      font-size: 20px; 
+    }
+    #email {
+      font-size: 24px; font-family: "didot"; 
+      text-align: center;
   }
+
   </style>
 </head>
 <body>
   <div class="container">
   <h1>* Hi! I'm Kate *</h1>
   <img src="/img/katereigelman.jpg" alt="kateprofessionalpic"> 
-  <p id="para1">Front-end developer: <br><em>~At Your Service.</em>
+  <p id="para1">Front-end developer: <br>
+  <p class="service"><em>~At Your Service.</em>
   </p>
-  <p class="para2" class="need">Have a need, </p>
-  <p class="para2" class="issue"><em>issue</em> or </p>
-  <p class="para2" class="question">question that needs to be solved? </p>
-  <p class="para3">Come say Hello, send me a message! &amp Sign up for all the goodies! </p>
+  <div class="content">
+  <p class="need" class="need">Have a need, </p>
+  <p class="issue" class="issue"><em>issue</em> or question</p>
+  <p class="question" class="solved">that needs to be solved? </p>
+  </div>
+  <p class="signup">Come say Hello, Sign up &amp Send me a message! </p>
     <label for="email">Email</label>
     <input id="email" type="email" placeholder="Your email">
-    <button class="email_submit_button">Send!</button>
+    <button class="email_submit_button">Click here, friend!</button>
 </body>
 </html>

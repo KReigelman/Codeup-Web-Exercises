@@ -3,14 +3,10 @@
     font-family: "Helvetica";
     font-size: 24px;
 }
-	*, *:before, *:after {
-    box-sizing: inherit;
-}
+
 
 	.container {
-    margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
     border-color: black;
 }
 	.row {
@@ -25,8 +21,8 @@
 
 	.column {
     float: left;
-    padding: 20px;
-    /*margin: 10px;*/
+    padding: 10px;
+    /*margin: 10px; don't use a margin as it will push the 3 "third boxes" into the next row*/
     background-color: aliceblue;
     border: 5px solid black;
 }
@@ -36,24 +32,20 @@
  }
 
 	.column.one-third {
-    width: 33.33%;
-    background-color: antiquewhite;
-    
+    width: 30%;
+    background-color: antiquewhite;    
 }
 	.column.one-fourth {
-    width: 25%;
-    background-color: cadetblue;
-    
+    width: 20%;
+    background-color: cadetblue;   
 }
 	.column.one-sixth {
-    width: 20%;
-    background-color: dimgrey;
-    
+    width: 13%;
+    background-color: dimgrey;  
 }
 	.column.one-eighth {
-    width: 16.66%;
-    background-color: deeppink;
-    
+    width: 10%;
+    background-color: deeppink;  
 }
 
 
