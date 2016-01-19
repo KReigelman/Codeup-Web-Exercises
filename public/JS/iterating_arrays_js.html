@@ -20,16 +20,37 @@
 
 var names = ['one fish', 'two fish', 'red fish', 'blue fish'];
 
-console.log(names.length);
+// console.log(names.length);
 
-console.log('The first statement is: ' + names[0]);
+// console.log('The first statement is: ' + names[0]);
 
-console.log('The first statement is: ' + names[1]);
+// console.log('The first statement is: ' + names[1]);
 
-console.log('The first statement is: ' + names[2]);
+// console.log('The first statement is: ' + names[2]);
 
-console.log('The first statement is: ' + names[3]);
-	
+// console.log('The first statement is: ' + names[3]);
+
+// loop through the array and log the values
+// for (var i = 0; i < shapes.length; i++) {
+//     console.log('The shape at index ' + i + ' is: ' + shapes[i]);
+// }
+
+// This 'forLoop does the same as all the code above'
+
+for (var i = 0; i < names.length; i++) {
+	console.log('The statement at index ' + i + ' is: ' + names[i]);
+}
+
+//same output using forEach
+
+	names.forEach(function (value, index) {
+		console.log('The statement at index ' + index + ' is: ' + value);
+	});
+
+	//value is the named statement  ex. one fish
+ 	//index is the iterator     ex. 0 or 1 or 2 or 3 for this example
+ 	//array is optional withing parameters -- NOT used in this example
+
 </script>
 </body>
 </html>
